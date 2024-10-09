@@ -1,25 +1,133 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .open-sans-normal{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings:"wdth" 100;
   }
+
+  /* header section */
+  .header{
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
   
 
 /* Nav styles */
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
 }
 .nav-title{
     font-weight: 800;
-    font-size: 45px;
+    font-size: 60px;
+
 }
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul li a,button{
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.nav-port:hover{
+    background-color:green;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    padding: 15px 25px;
+    border-radius: 50px;
+    border: none;
+}
+
+/* banner styles */
+    .banner-greetings{
+        color: #474747;
+        font-weight: 600;
+        font-size: 35px;
+        }
+
+    .banner-title{
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 20px;
+
+    }
+
+    
+    .banner-content{
+        max-width: 580px;
+        margin: 180px 0 0 0;
+
+    }
+
+    .banner-profile-pic{
+        width: 500px;
+    }
+    .banner{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 35px 0 200px;
+    }
+    .banner-description{
+        color: #474747;
+        margin-bottom: 20px;
+    }
 /* common styles */
 .text-primary{
-    color: #fd6e0a;
+    color: purple;
 }
 .purple-color{
     color: rgb(149, 17, 149);
+}
+.btn-primary{
+    background-color: purple;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+    
+}
+#btn-gap{
+    margin-right: 5px;
+}
+.btn-seconday{
+    background-color:navy;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+}
+.btn-seconday:hover{
+    background-color: rgb(13, 74, 13);
+    cursor: pointer;
+
+}
+.btn-primary:hover{
+    background-color: rgb(13, 74, 13);
+    cursor: pointer;
+
 }
