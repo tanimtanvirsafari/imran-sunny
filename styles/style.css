@@ -107,6 +107,8 @@ nav ul{
     padding: 15px 25px;
     border-radius: 10px;
     border: none;
+    transition: background-color 0.3s ease-in-out;
+    transition-delay: 0.1s;
     
 }
 #btn-gap{
@@ -131,3 +133,159 @@ nav ul{
     cursor: pointer;
 
 }
+
+.section-title{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color:rgb(24, 24, 24);
+}
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* About section */
+
+.about-section{
+    background-color: rgb(255, 248, 243);
+    text-align: center;
+    padding: 110px 150px;
+    margin-top: 130px;
+    
+    
+   
+}
+.about-section p{
+    margin-top: 20px;
+     color:rgb(117, 117, 117);
+}
+.about-items{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+   
+    
+}
+.about-item{
+    margin-right: 20px;
+}
+
+/* what I do section */
+.i-do-section{
+    margin: 30px 20px  ;
+    color: #474747;
+    /* width: 600px; */
+    text-align: center;
+    width: 100%;
+    
+}
+.card img{
+    width: 50px;
+    height: 50px;
+}
+.card{
+    display: flex;
+    gap: 24px;
+    padding: 30px;
+    
+}
+.card-title{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.card-description{
+    padding-top: 10px;
+    
+}
+.card-1{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.6);
+}
+
+/* Resume section style */
+
+.section-title{
+    margin-bottom: 30px;
+    /* font-weight: 700; */
+}
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+    color: #757575;
+    
+}
+.resume-column-title{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #474747;
+}
+.experience-title{
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+    color: #474747;
+
+}
+.experience-sub-title{
+    margin-bottom: 20px;
+    color: #474747;
+}
+.experience-description{
+    margin-bottom: 20px;
+
+}
+.btn-download-cv{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+/* footer section */
+footer{
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"],footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    
+}
+.footer-p{
+    color: #474747;
+    margin-bottom: 30px;
+}
+.png img{
+    margin-right: 20px;
+    
+}
+.png{
+    text-align: center;
+    /* margin-top: 10px; */
+}
+
+
+
+
+
